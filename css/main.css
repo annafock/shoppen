@@ -1,0 +1,44 @@
+.image-holder{
+	min-height: 285px;
+	max-height: 239px;
+}
+.image-holder img{
+	width: 100%;
+}
+
+.footer{
+	text-align: center;	
+	padding-top: 10px;	
+}
+
+/*ligger inte i botten som den ska. 
+Ska jag använda sticky-footer istället?*/
+/*.navbar-fixed-bottom
+{
+	position: ;
+	bottom:0;
+}*/
+
+.omoss{
+	min-width: 400px;
+}
+
+/*Hitta alla td som är det
+första barnet till någonting i
+inuti kundvagn*/
+.kundvagn td:first-child{
+	width: 50%;
+}
+
+.kundvagn td:nth-child(4){
+width: 5px;
+}
+
+.kundvagn input{
+	width: 50px;
+}
+
+
+
+
+

@@ -1,0 +1,43 @@
+template.kundvagn = `
+<div class="modal fade" id="kundvagn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Kundvagn</h4>
+      </div>
+      <div class="modal-body">
+
+
+        <table class="table kundvagn">
+          <thead>
+            <tr>
+              <th class="col">Vara</th>
+              <th class="col">Antal</th>
+              <th class="col">Pris</th>
+              <th class="col">Summa</th>
+              <th class="col"></th>  
+            </tr>
+          </thead>
+         
+          <tbody>
+            <tr>
+                <td class="kundvagn-tom" colspan="4">Kundvagnen är tom.</td>
+            </tr>  
+          </tbody>
+          <tfoot>
+           <!-- <tr>
+                <td colspan="2">Totalsumma</td>
+                <td colspan="3">totalsumma</td>
+            </tr>-->
+          </tfoot>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Avbryt</button>
+        <button type="button" class="btn btn-primary">Till kassan</button>
+      </div>
+    </div>
+  </div>
+</div>
+`
